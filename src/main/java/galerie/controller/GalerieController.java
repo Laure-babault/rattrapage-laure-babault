@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import galerie.dao.GalerieRepository;
 import galerie.entity.Galerie;
+import java.util.List;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 /**
