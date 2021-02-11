@@ -71,6 +71,7 @@
 			<!-- Driver JDBC Postgres pour déploiement sur heroku -->
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<dependency>
