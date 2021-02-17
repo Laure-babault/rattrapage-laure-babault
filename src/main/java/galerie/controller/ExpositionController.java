@@ -24,8 +24,11 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @RequestMapping(path = "/exposition")
 public class ExpositionController {
 
-    @Autowired
-    private ExpositionRepository dao;
+    private final ExpositionRepository dao;
+
+    public ExpositionController(ExpositionRepository dao) {
+        this.dao = dao;
+    }
 
 
     @GetMapping(path = "chiffreAffaire")
