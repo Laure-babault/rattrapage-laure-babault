@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.test.context.jdbc.Sql;
-import org.springframework.context.annotation.Profile;
+
 
 @Log4j2 // Génère le 'logger' pour afficher les messages de trace
 @DataJpaTest
